@@ -1,0 +1,18 @@
+ .table{
+    width:100%;
+    margin:10px auto;
+    border-radius:5px;
+}
+
+:global .rt-thead .rt-tr{
+   background-color:transparent;
+   color : #ccc;
+}
+
+:global .ReactTable{
+    border-radius:5px;
+}
+:global .rt-table{
+    border-radius:5px;
+    /* //background-color: white; */
+}

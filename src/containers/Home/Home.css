@@ -1,0 +1,53 @@
+ :global .homecontainer{
+    text-align: center;
+    margin-top: 100px;
+  }
+ :global .homegrid{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+:global .homegrid li {
+    padding: 15px 15px;
+    /* text-align: left; */
+  }
+  
+:global .modalcontainer {
+    font-size: 12px;
+    border-radius: 12px;
+  }
+:global .moreinfocontainer > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+:global .more-info-container > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+:global .modalcontainer > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+:global .modalcontainer > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }

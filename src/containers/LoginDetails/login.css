@@ -1,0 +1,70 @@
+:global .App-logo {
+    /* animation: App-logo-spin infinite 20s linear; */
+    height: 80px;
+  }
+  
+:global   .App-header {
+    background-color: #222;
+    height: 20vh;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+ :global  .App-title {
+    font-size: 1.8em;
+  }
+  
+ :global  .App-intro {
+    font-size: large;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+ body {
+  
+    font-family: "Open Sans", serif;
+  
+  }
+
+  
+ :global  .loginDetails {
+    padding: 70px;
+    padding-top: 20px;
+  }
+  
+ :global  .loginDetails h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(53, 55, 56);
+  }
+  
+ :global  .loginDetails label {
+    font-weight: bold;
+    color: rgb(11, 39, 66);
+    font-size: 20px;
+  }
+  
+ :global  .form-control {
+    width: 30vw;
+    height: 20px;
+    margin: 5px;
+  }
+  
+ :global  form a {
+    color: rgb(97, 5, 5);
+    display: block;
+    margin-top: 20px;
+  }
+
+ :global  .confirmText Link {
+    color: #E86850;
+  }
+
+
+  
+  
+  

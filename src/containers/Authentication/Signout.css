@@ -1,0 +1,13 @@
+:global .signout {
+    text-align: center;
+    margin: auto;
+}
+
+:global .signout Link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+:global .signout h1 {
+    font-weight: bolder;
+}

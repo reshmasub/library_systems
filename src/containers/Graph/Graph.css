@@ -1,0 +1,11 @@
+.Graph{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 100px;
+    margin-top: -40px;
+    margin-left: 450px;
+}
